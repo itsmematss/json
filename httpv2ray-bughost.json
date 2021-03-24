@@ -1,1 +1,33 @@
-test
+{
+  "Version": 1.2,
+  "ReleaseNotes":["Added BugHost", "Please Avoid Torrent Activities!"],
+  "Networks": [{
+    "Name": "GTM No Load 01",
+    "Icon": "icon",
+    "Payload": "::ffff:6811:4105"
+  },{
+    "Name": "GTM No Load 02",
+    "Icon": "icon",
+    "Payload": "www.globe.com.ph.cdn.cloudflare.net"
+  },{
+    "Name": "GTM No Load 03",
+    "Icon": "icon",
+    "Payload": "Z3RtIG5vIGxvYWQgMDM="
+  },{
+    "Name": "GTM No Load 04",
+    "Icon": "icon",
+    "Payload": "gtm no load 04"
+  },{
+    "Name": "GOMO Sim",
+    "Icon": "icon",
+    "Payload": "gomo sim"
+  },{
+    "Name": "STS No Load 01",
+    "Icon": "icon",
+    "Payload": "sts.noload.stan.izone.apn1.ml"
+  },{
+    "Name": "STS No Load 02",
+    "Icon": "icon",
+    "Payload": "tnt no load"
+  }]
+}
