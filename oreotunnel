@@ -1,0 +1,132 @@
+{
+    "Version": 2.8,
+    "ReleaseNotes":["Added New Servers", "Added Port's"],
+    "OnlineUpdate": "",
+    "Servers": [{
+        "Name": "Server 1",
+        "Flag": "US",
+        "Host": "us1.ectunnelvpn.com",
+        "Direct": 555,
+        "SshPort": 22,
+        "SslPort": 443
+    },{
+        "Name": "Server 2",
+        "Flag": "DE",
+        "Host": "78.47.38.155",
+        "Direct": 555,
+        "SshPort": 22,
+        "SslPort": 443
+    },{
+        "Name": "Server 3",
+        "Flag": "DE",
+        "Host": "78.47.122.193",
+        "Direct": 555,
+        "SshPort": 22,
+        "SslPort": 443
+    },{
+        "Name": "Server 4",
+        "Flag": "UK",
+        "Host": "uk1.ectunnelvpn.com",
+        "Direct": 555,
+        "SshPort": 22,
+        "SslPort": 443
+    },{
+        "Name": "Server 5",
+        "Flag": "SG",
+        "Host": "sgp1.ectunnelvpn.com",
+        "Direct": 555,
+        "SshPort": 22,
+        "SslPort": 443
+    },{
+        "Name": "Server 6",
+        "Flag": "SG",
+        "Host": "sgp2.ectunnelvpn.com",
+        "Direct": 555,
+        "SshPort": 22,
+        "SslPort": 443
+    },{
+        "Name": "Server 7",
+        "Flag": "GE",
+        "Host": "ge1.ectunnelvpn.com",
+        "Direct": 555,
+        "SshPort": 22,
+        "SslPort": 443
+    },{
+        "Name": "Server 8",
+        "Flag": "GE",
+        "Host": "ge2.ectunnelvpn.com",
+        "Direct": 555,
+        "SshPort": 22,
+        "SslPort": 443
+    },{
+        "Name": "Server 9",
+        "Flag": "NL",
+        "Host": "nl1.ectunnelvpn.com",
+        "Direct": 555,
+        "SshPort": 22,
+        "SslPort": 443
+    },{
+        "Name": "Server 10",
+        "Flag": "NL",
+        "Host": "nl2.ectunnelvpn.com",
+        "Direct": 555,
+        "SshPort": 22,
+        "SslPort": 443
+    },{
+        "Name": "MTN 0.0k Unlimited",
+        "Flag": "DE",
+        "Host": "45.33.13.96.entclass3.duckdns.org",
+        "Direct": 555,
+        "SshPort": 22,
+        "SslPort": 443
+    },{
+        "Name": "MTN YouTube",
+        "Flag": "DE",
+        "Host": "45.33.13.96.entclass2.duckdns.org",
+        "Direct": 555,
+        "SshPort": 22,
+        "SslPort": 443
+    },{
+        "Name": "Glo WTF",
+        "Flag": "DE",
+        "Host": "v.whatsapp.net.entclass1.duckdns.org",
+        "Direct": 555,
+        "SshPort": 22,
+        "SslPort": 443
+    },{
+        "Name": "CellCom FREE Server",
+        "Flag": "PS",
+        "Host": "104.248.84.24",
+        "Direct": 555,
+        "SshPort": 22,
+        "SslPort": 443
+    },{
+        "Name": "WE Free Server",
+        "Flag": "EG",
+        "Host": "presidency.egH710027.newgvpnhub.com",
+        "Direct": 555,
+        "SshPort": 22,
+        "SslPort": 443
+    }], 
+    "Ports": [{
+        "ProxyPort": 8080
+    },{
+        "ProxyPort": 443
+    },{
+        "ProxyPort": 444
+    },{
+        "ProxyPort": 3128
+    },{
+        "ProxyPort": 8000
+    },{
+        "ProxyPort": 8086
+    },{
+        "ProxyPort": 8087
+    },{
+        "ProxyPort": 80
+    }], 
+    "Authentication": {
+        "Username": "uTJlH4j6h0WAl4Tv",
+        "Password": "y/GDfYN532XB6P74"
+    }
+}
