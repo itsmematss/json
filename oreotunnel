@@ -5,10 +5,10 @@
     "Servers": [{
         "Name": "Server 1",
         "Flag": "US",
-        "Host": "us1.ectunnelvpn.com",
-        "Direct": 555,
+        "Host": "server01.nethubvpn.info",
+        "Direct": 900,
         "SshPort": 22,
-        "SslPort": 443
+        "SslPort": 144
     },{
         "Name": "Server 2",
         "Flag": "DE",
@@ -126,7 +126,7 @@
         "ProxyPort": 80
     }], 
     "Authentication": {
-        "Username": "uTJlH4j6h0WAl4Tv",
-        "Password": "y/GDfYN532XB6P74"
+        "Username": "matsscrypt",
+        "Password": "matsscrypt"
     }
 }
