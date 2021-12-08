@@ -1,0 +1,128 @@
+{
+  "ReleaseNotes": "Release Notes",
+  "Version": 1.1,
+  "Servers": [
+    {
+      "Name": "Server 01",
+      "Info": "Test Server",
+      "Flag": "sg",
+      "ServerAddress": "165.232.162.29",
+      "UDPPort": "25222",
+      "TCPPort": "110",
+      "SSLPort": "443",
+      "ProxyHost": "165.232.162.29",
+      "ProxyPort": "8000"
+    },
+    {
+      "Name": "Server 02",
+      "Info": "Test Server",
+      "Flag": "za",
+      "ServerAddress": "server02.nethubvpn.info",
+      "UDPPort": "25222",
+      "TCPPort": "110",
+      "SSLPort": "443",
+      "ProxyHost": "server02.nethubvpn.info",
+      "ProxyPort": "8080"
+    },
+    {
+      "Name": "Server 03",
+      "Info": "Test Server",
+      "Flag": "de",
+      "ServerAddress": "server01.nethubvpn.info",
+      "UDPPort": "25222",
+      "TCPPort": "110",
+      "SSLPort": "443",
+      "ProxyHost": "server02.nethubvpn.info",
+      "ProxyPort": "8080"
+    },
+    {
+      "Name": "Server 04",
+      "Info": "Test Server",
+      "Flag": "ca",
+      "ServerAddress": "server02.nethubvpn.info",
+      "UDPPort": "25222",
+      "TCPPort": "110",
+      "SSLPort": "443",
+      "ProxyHost": "server02.nethubvpn.info",
+      "ProxyPort": "8080"
+    },
+    {
+      "Name": "Server 05",
+      "Info": "Test Server",
+      "Flag": "jp",
+      "ServerAddress": "server01.nethubvpn.info",
+      "UDPPort": "25222",
+      "TCPPort": "110",
+      "SSLPort": "443",
+      "ProxyHost": "server02.nethubvpn.info",
+      "ProxyPort": "8080"
+    },
+    {
+      "Name": "Server 06",
+      "Info": "Test Server",
+      "Flag": "us",
+      "ServerAddress": "server02.nethubvpn.info",
+      "UDPPort": "25222",
+      "TCPPort": "110",
+      "SSLPort": "443",
+      "ProxyHost": "server02.nethubvpn.info",
+      "ProxyPort": "8080"
+    },
+    {
+      "Name": "Server 07",
+      "Info": "Test Server",
+      "Flag": "kr",
+      "ServerAddress": "server01.nethubvpn.info",
+      "UDPPort": "25222",
+      "TCPPort": "110",
+      "SSLPort": "443",
+      "ProxyHost": "server02.nethubvpn.info",
+      "ProxyPort": "8080"
+    },
+    {
+      "Name": "Server 08",
+      "Info": "Test Server",
+      "Flag": "ph",
+      "ServerAddress": "server02.nethubvpn.info",
+      "UDPPort": "25222",
+      "TCPPort": "110",
+      "SSLPort": "443",
+      "ProxyHost": "server02.nethubvpn.info",
+      "ProxyPort": "8080"
+    }
+  ],
+  "Networks": [
+    {
+      "Name": "SSL Connect",
+      "Info": "Unlimited Tunneling",
+      "Icon": "direct",
+      "TunnelType": 2,
+      "Payload": "",
+      "SNIHost": "m.google.com"
+    },
+    {
+      "Name": "UDP Connect",
+      "Info": "Unlimited Tunneling",
+      "Icon": "direct",
+      "TunnelType": 0,
+      "Payload": "",
+      "SNIHost": "m.google.com"
+    },
+    {
+      "Name": "TCP Connect",
+      "Info": "Unlimited Tunneling",
+      "Icon": "direct",
+      "TunnelType": 1,
+      "Payload": "CONNECT [host_port] [protocol][crlf]Host: m.google.com[crlf][crlf]",
+      "SNIHost": "m.google.com"
+    },
+    {
+      "Name": "Tweak 04",
+      "Info": "Unlimited Tunneling",
+      "Icon": "direct",
+      "TunnelType": 2,
+      "Payload": "",
+      "SNIHost": "m.google.com"
+    }
+  ]
+}
