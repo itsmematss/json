@@ -1,6 +1,6 @@
 {
-  "ReleaseNotes": "Added SSL Networks\n VolterVPN",
-  "Version": 1.3,
+  "ReleaseNotes": "Added SSL Networks\nAdded Servers\nVolterVPN",
+  "Version": 1.4,
   "Servers": [
     {
       "Name": "Server 01",
@@ -26,6 +26,28 @@
     },
     {
       "Name": "Server 03",
+      "Info": "Test Server",
+      "Flag": "za",
+      "ServerAddress": "b.bulletvpn.us",
+      "UDPPort": "53",
+      "TCPPort": "1194",
+      "SSLPort": "443",
+      "ProxyHost": "b.bulletvpn.us",
+      "ProxyPort": "8080"
+    },
+    {
+      "Name": "Server 04",
+      "Info": "Test Server",
+      "Flag": "za",
+      "ServerAddress": "c.bulletvpn.us",
+      "UDPPort": "53",
+      "TCPPort": "1194",
+      "SSLPort": "443",
+      "ProxyHost": "c.bulletvpn.us",
+      "ProxyPort": "8080"
+    },
+    {
+      "Name": "Server 05",
       "Info": "Test Server",
       "Flag": "de",
       "ServerAddress": "zain.arakanvpn.us",
