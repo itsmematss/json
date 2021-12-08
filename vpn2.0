@@ -1,6 +1,6 @@
 {
   "ReleaseNotes": "Release Notes",
-  "Version": 1.1,
+  "Version": 1.2,
   "Servers": [
     {
       "Name": "Server 01",
@@ -81,6 +81,28 @@
     },
     {
       "Name": "Server 08",
+      "Info": "Test Server",
+      "Flag": "ph",
+      "ServerAddress": "server02.nethubvpn.info",
+      "UDPPort": "25222",
+      "TCPPort": "110",
+      "SSLPort": "443",
+      "ProxyHost": "server02.nethubvpn.info",
+      "ProxyPort": "8080"
+    },
+    {
+      "Name": "Server 09",
+      "Info": "Test Server",
+      "Flag": "kr",
+      "ServerAddress": "server01.nethubvpn.info",
+      "UDPPort": "25222",
+      "TCPPort": "110",
+      "SSLPort": "443",
+      "ProxyHost": "server02.nethubvpn.info",
+      "ProxyPort": "8080"
+    },
+    {
+      "Name": "Server 10",
       "Info": "Test Server",
       "Flag": "ph",
       "ServerAddress": "server02.nethubvpn.info",
