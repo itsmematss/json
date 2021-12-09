@@ -1,6 +1,6 @@
 {
-  "ReleaseNotes": "Added SSL Networks\nAdded Servers\nAdded Websocket\nVolterVPN",
-  "Version": 1.1,
+  "ReleaseNotes": "Added SSL Networks\nAdded Servers\nAdded Websocket\nPanda\nVolterVPN",
+  "Version": 1.2,
   "Servers": [
     {
       "Name": "Server 01",
@@ -45,6 +45,33 @@
       "ServerAddress": "b.bulletvpn.us",
       "UDPPort": "53",
       "TCPPort": "1194",
+      "SSLPort": "443"
+    },
+    {
+      "Name": "WebSocket Panda 01",
+      "Info": "Test Server",
+      "Flag": "ph",
+      "ServerAddress": "volter.pandavpn.us",
+      "UDPPort": "53",
+      "TCPPort": "1194",
+      "SSLPort": "443"
+    },
+    {
+      "Name": "WebSocket Panda 02",
+      "Info": "Test Server",
+      "Flag": "ph",
+      "ServerAddress": "volter.pandavpn.us",
+      "UDPPort": "53",
+      "TCPPort": "80",
+      "SSLPort": "443"
+    },
+    {
+      "Name": "WebSocket Panda 03",
+      "Info": "Test Server",
+      "Flag": "ph",
+      "ServerAddress": "www.payfort.com",
+      "UDPPort": "53",
+      "TCPPort": "80",
       "SSLPort": "443"
     },
     {
@@ -150,6 +177,17 @@
       "Icon": "direct",
       "TunnelType": 1,
       "Payload": "CONNECT  http://www.payfort.com:80 HTTP/1.1[crlf]Host: zainfree.arakanvpn.us[crlf]Connection: Upgrade, HTTP2-Settings\\n &gt; Upgrade: Go-http-client/1.1 [crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNIHost": "m.google.com",
+      "isDefProxy": false,
+      "ProxyHost": "www.payfort.com",
+      "ProxyPort": "80"
+    },
+    {
+      "Name": "Websocket Panda",
+      "Info": "VolterVPN",
+      "Icon": "direct",
+      "TunnelType": 1,
+      "Payload": "CONNECT  http://www.payfort.com:80 HTTP/1.1[crlf]Host: volter.pandavpn.us[crlf]Connection: Upgrade, HTTP2-Settings\\n &gt; Upgrade: Go-http-client/1.1 [crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
       "SNIHost": "m.google.com",
       "isDefProxy": false,
       "ProxyHost": "www.payfort.com",
