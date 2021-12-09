@@ -1,6 +1,6 @@
 {
-  "ReleaseNotes": "Added SSL Networks\nAdded Servers\nVolterVPN",
-  "Version": 1.4,
+  "ReleaseNotes": "Added SSL Networks\nAdded Servers\nAdded Websocket\nVolterVPN",
+  "Version": 1.1,
   "Servers": [
     {
       "Name": "Server 01",
@@ -9,9 +9,7 @@
       "ServerAddress": "a.arakanvpn.us",
       "UDPPort": "53",
       "TCPPort": "1194",
-      "SSLPort": "443",
-      "ProxyHost": "a.arakanvpn.us",
-      "ProxyPort": "8080"
+      "SSLPort": "443"
     },
     {
       "Name": "Server 02",
@@ -20,9 +18,7 @@
       "ServerAddress": "a.bulletvpn.us",
       "UDPPort": "53",
       "TCPPort": "1194",
-      "SSLPort": "443",
-      "ProxyHost": "a.bulletvpn.us",
-      "ProxyPort": "8080"
+      "SSLPort": "443"
     },
     {
       "Name": "Server 03",
@@ -31,9 +27,25 @@
       "ServerAddress": "b.bulletvpn.us",
       "UDPPort": "53",
       "TCPPort": "1194",
-      "SSLPort": "443",
-      "ProxyHost": "b.bulletvpn.us",
-      "ProxyPort": "8080"
+      "SSLPort": "443"
+    },
+    {
+      "Name": "WebSocket 01",
+      "Info": "Test Server",
+      "Flag": "ph",
+      "ServerAddress": "www.payfort.com",
+      "UDPPort": "53",
+      "TCPPort": "80",
+      "SSLPort": "443"
+    },
+    {
+      "Name": "WebSocket 02",
+      "Info": "Test Server",
+      "Flag": "ph",
+      "ServerAddress": "b.bulletvpn.us",
+      "UDPPort": "53",
+      "TCPPort": "1194",
+      "SSLPort": "443"
     },
     {
       "Name": "Server 04",
@@ -42,9 +54,7 @@
       "ServerAddress": "c.bulletvpn.us",
       "UDPPort": "53",
       "TCPPort": "1194",
-      "SSLPort": "443",
-      "ProxyHost": "c.bulletvpn.us",
-      "ProxyPort": "8080"
+      "SSLPort": "443"
     },
     {
       "Name": "Server 05",
@@ -53,9 +63,7 @@
       "ServerAddress": "zain.arakanvpn.us",
       "UDPPort": "53",
       "TCPPort": "1194",
-      "SSLPort": "443",
-      "ProxyHost": "zain.arakanvpn.us",
-      "ProxyPort": "8080"
+      "SSLPort": "443"
     }
   ],
   "Networks": [
@@ -65,7 +73,10 @@
       "Icon": "direct",
       "TunnelType": 2,
       "Payload": "",
-      "SNIHost": "m.google.com"
+      "SNIHost": "m.google.com",
+      "isDefProxy": true,
+      "ProxyHost": "",
+      "ProxyPort": ""
     },
     {
       "Name": "Volter SSL",
@@ -73,7 +84,10 @@
       "Icon": "direct",
       "TunnelType": 2,
       "Payload": "",
-      "SNIHost": "10dqeshtte.execute-api.me-south-1.amazonaws.com"
+      "SNIHost": "10dqeshtte.execute-api.me-south-1.amazonaws.com",
+      "isDefProxy": true,
+      "ProxyHost": "",
+      "ProxyPort": ""
     },
     {
       "Name": "UDP Connect",
@@ -81,7 +95,10 @@
       "Icon": "direct",
       "TunnelType": 0,
       "Payload": "",
-      "SNIHost": "m.google.com"
+      "SNIHost": "m.google.com",
+      "isDefProxy": true,
+      "ProxyHost": "",
+      "ProxyPort": ""
     },
     {
       "Name": "TCP Connect",
@@ -89,15 +106,54 @@
       "Icon": "direct",
       "TunnelType": 1,
       "Payload": "CONNECT [host_port] [protocol][crlf]Host: m.google.com[crlf][crlf]",
-      "SNIHost": "m.google.com"
+      "SNIHost": "m.google.com",
+      "isDefProxy": true,
+      "ProxyHost": "",
+      "ProxyPort": ""
     },
     {
-      "Name": "Websocket",
+      "Name": "Test Proxy",
+      "Info": "Unlimited Tunneling",
+      "Icon": "direct",
+      "TunnelType": 1,
+      "Payload": "CONNECT [host_port] [protocol][crlf]Host: m.google.com[crlf][crlf]",
+      "SNIHost": "m.google.com",
+      "isDefProxy": false,
+      "ProxyHost": "",
+      "ProxyPort": "8080"
+    },
+    {
+      "Name": "Websocket Uno",
       "Info": "VolterVPN",
       "Icon": "direct",
       "TunnelType": 1,
       "Payload": "CONNECT  http://www.payfort.com:80 HTTP/1.1[crlf]Host: a.arakanvpn.us[crlf]Connection: Upgrade, HTTP2-Settings\\n &gt; Upgrade: Go-http-client/1.1 [crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
-      "SNIHost": "m.google.com"
+      "SNIHost": "m.google.com",
+      "isDefProxy": false,
+      "ProxyHost": "www.payfort.com",
+      "ProxyPort": "80"
+    },
+    {
+      "Name": "Websocket Dos",
+      "Info": "VolterVPN",
+      "Icon": "direct",
+      "TunnelType": 1,
+      "Payload": "CONNECT  http://www.payfort.com:80 HTTP/1.1[crlf]Host: a.arakanvpn.us[crlf]Connection: Upgrade, HTTP2-Settings\n &gt; Upgrade: Go-http-client/1.1 [crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNIHost": "m.google.com",
+      "isDefProxy": false,
+      "ProxyHost": "www.payfort.com",
+      "ProxyPort": "80"
+    },
+    {
+      "Name": "Websocket Tres",
+      "Info": "VolterVPN",
+      "Icon": "direct",
+      "TunnelType": 1,
+      "Payload": "CONNECT  http://www.payfort.com:80 HTTP/1.1[crlf]Host: zainfree.arakanvpn.us[crlf]Connection: Upgrade, HTTP2-Settings\\n &gt; Upgrade: Go-http-client/1.1 [crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNIHost": "m.google.com",
+      "isDefProxy": false,
+      "ProxyHost": "www.payfort.com",
+      "ProxyPort": "80"
     }
   ]
 }
