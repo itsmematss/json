@@ -1,6 +1,6 @@
 {
   "ReleaseNotes": "Added SSL Networks\nAdded Servers\nAdded Websocket\nPanda\nVolterVPN",
-  "Version": 1.2,
+  "Version": 1.1,
   "Servers": [
     {
       "Name": "Server 01",
@@ -97,7 +97,7 @@
     {
       "Name": "SSL Connect",
       "Info": "Unlimited Tunneling",
-      "Icon": "direct",
+      "Icon": "whatsapp",
       "TunnelType": 2,
       "Payload": "",
       "SNIHost": "m.google.com",
@@ -108,7 +108,7 @@
     {
       "Name": "Volter SSL",
       "Info": "Unlimited Tunneling",
-      "Icon": "direct",
+      "Icon": "tiktok",
       "TunnelType": 2,
       "Payload": "",
       "SNIHost": "10dqeshtte.execute-api.me-south-1.amazonaws.com",
@@ -119,7 +119,7 @@
     {
       "Name": "UDP Connect",
       "Info": "Unlimited Tunneling",
-      "Icon": "direct",
+      "Icon": "zain",
       "TunnelType": 0,
       "Payload": "",
       "SNIHost": "m.google.com",
@@ -130,7 +130,7 @@
     {
       "Name": "TCP Connect",
       "Info": "Unlimited Tunneling",
-      "Icon": "direct",
+      "Icon": "youtube",
       "TunnelType": 1,
       "Payload": "CONNECT [host_port] [protocol][crlf]Host: m.google.com[crlf][crlf]",
       "SNIHost": "m.google.com",
@@ -141,7 +141,7 @@
     {
       "Name": "Test Proxy",
       "Info": "Unlimited Tunneling",
-      "Icon": "direct",
+      "Icon": "omantel",
       "TunnelType": 1,
       "Payload": "CONNECT [host_port] [protocol][crlf]Host: m.google.com[crlf][crlf]",
       "SNIHost": "m.google.com",
@@ -152,7 +152,7 @@
     {
       "Name": "Websocket Uno",
       "Info": "VolterVPN",
-      "Icon": "direct",
+      "Icon": "mtn",
       "TunnelType": 1,
       "Payload": "CONNECT  http://www.payfort.com:80 HTTP/1.1[crlf]Host: a.arakanvpn.us[crlf]Connection: Upgrade, HTTP2-Settings\\n &gt; Upgrade: Go-http-client/1.1 [crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
       "SNIHost": "m.google.com",
@@ -163,7 +163,7 @@
     {
       "Name": "Websocket Dos",
       "Info": "VolterVPN",
-      "Icon": "direct",
+      "Icon": "twitter",
       "TunnelType": 1,
       "Payload": "CONNECT  http://www.payfort.com:80 HTTP/1.1[crlf]Host: a.arakanvpn.us[crlf]Connection: Upgrade, HTTP2-Settings\n &gt; Upgrade: Go-http-client/1.1 [crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
       "SNIHost": "m.google.com",
@@ -174,7 +174,7 @@
     {
       "Name": "Websocket Tres",
       "Info": "VolterVPN",
-      "Icon": "direct",
+      "Icon": "viva",
       "TunnelType": 1,
       "Payload": "CONNECT  http://www.payfort.com:80 HTTP/1.1[crlf]Host: zainfree.arakanvpn.us[crlf]Connection: Upgrade, HTTP2-Settings\\n &gt; Upgrade: Go-http-client/1.1 [crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
       "SNIHost": "m.google.com",
@@ -185,7 +185,7 @@
     {
       "Name": "Websocket Panda",
       "Info": "VolterVPN",
-      "Icon": "direct",
+      "Icon": "wechat",
       "TunnelType": 1,
       "Payload": "CONNECT  http://www.payfort.com:80 HTTP/1.1[crlf]Host: volter.pandavpn.us[crlf]Connection: Upgrade, HTTP2-Settings\\n &gt; Upgrade: Go-http-client/1.1 [crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
       "SNIHost": "m.google.com",
