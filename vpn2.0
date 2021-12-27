@@ -4,92 +4,29 @@
   "Servers": [
     {
       "Name": "Server 01",
-      "Info": "VolterVPN",
+      "Info": "Unlimited Tunneling",
       "Flag": "sg",
-      "ServerAddress": "a.arakanvpn.us",
-      "UDPPort": "53",
-      "TCPPort": "1194",
+      "ServerAddress": "ovpn-ssg02.bmqb.net",
+      "UDPPort": "25222",
+      "TCPPort": "110",
       "SSLPort": "443"
     },
     {
       "Name": "Server 02",
-      "Info": "Test Server",
-      "Flag": "za",
-      "ServerAddress": "a.bulletvpn.us",
-      "UDPPort": "53",
-      "TCPPort": "1194",
+      "Info": "Unlimited Tunneling",
+      "Flag": "sg",
+      "ServerAddress": "ovpn-ssg02.bmqb.net",
+      "UDPPort": "25222",
+      "TCPPort": "110",
       "SSLPort": "443"
     },
     {
-      "Name": "Server 03",
-      "Info": "Test Server",
-      "Flag": "za",
-      "ServerAddress": "b.bulletvpn.us",
-      "UDPPort": "53",
-      "TCPPort": "1194",
-      "SSLPort": "443"
-    },
-    {
-      "Name": "WebSocket 01",
-      "Info": "Test Server",
-      "Flag": "ph",
-      "ServerAddress": "www.payfort.com",
-      "UDPPort": "53",
+      "Name": "Websocket 01",
+      "Info": "Unlimited Tunneling",
+      "Flag": "sg",
+      "ServerAddress": "Remoteproxy.dattebayo.org",
+      "UDPPort": "25222",
       "TCPPort": "80",
-      "SSLPort": "443"
-    },
-    {
-      "Name": "WebSocket 02",
-      "Info": "Test Server",
-      "Flag": "ph",
-      "ServerAddress": "b.bulletvpn.us",
-      "UDPPort": "53",
-      "TCPPort": "1194",
-      "SSLPort": "443"
-    },
-    {
-      "Name": "WebSocket Panda 01",
-      "Info": "Test Server",
-      "Flag": "ph",
-      "ServerAddress": "volter.pandavpn.us",
-      "UDPPort": "53",
-      "TCPPort": "1194",
-      "SSLPort": "443"
-    },
-    {
-      "Name": "WebSocket Panda 02",
-      "Info": "Test Server",
-      "Flag": "ph",
-      "ServerAddress": "volter.pandavpn.us",
-      "UDPPort": "53",
-      "TCPPort": "80",
-      "SSLPort": "443"
-    },
-    {
-      "Name": "WebSocket Panda 03",
-      "Info": "Test Server",
-      "Flag": "ph",
-      "ServerAddress": "www.payfort.com",
-      "UDPPort": "53",
-      "TCPPort": "80",
-      "SSLPort": "443"
-    },
-    {
-      "Name": "Server 04",
-      "Info": "Test Server",
-      "Flag": "za",
-      "ServerAddress": "c.bulletvpn.us",
-      "UDPPort": "53",
-      "TCPPort": "1194",
-      "SSLPort": "443"
-    },
-    {
-      "Name": "Server 05",
-      "Info": "Test Server",
-      "Flag": "de",
-      "ServerAddress": "zain.arakanvpn.us",
-      "UDPPort": "53",
-      "TCPPort": "1194",
       "SSLPort": "443"
     }
   ],
@@ -106,92 +43,28 @@
       "ProxyPort": ""
     },
     {
-      "Name": "Volter SSL",
+      "Name": "TCP",
       "Info": "Unlimited Tunneling",
       "Icon": "tiktok",
-      "TunnelType": 2,
-      "Payload": "",
+      "TunnelType": 1,
+      "Payload": "CONNECT [host_port] [protocol][crlf]Host: m.google.com[crlf][crlf]",
       "SNIHost": "10dqeshtte.execute-api.me-south-1.amazonaws.com",
       "isDefProxy": true,
       "ProxyHost": "",
       "ProxyPort": ""
     },
     {
-      "Name": "UDP Connect",
+      "Name": "NO LOAD",
       "Info": "Unlimited Tunneling",
-      "Icon": "zain",
-      "TunnelType": 0,
-      "Payload": "",
-      "SNIHost": "m.google.com",
-      "isDefProxy": true,
-      "ProxyHost": "",
-      "ProxyPort": ""
-    },
-    {
-      "Name": "TCP Connect",
-      "Info": "Unlimited Tunneling",
-      "Icon": "youtube",
+      "Icon": "tiktok",
       "TunnelType": 1,
-      "Payload": "CONNECT [host_port] [protocol][crlf]Host: m.google.com[crlf][crlf]",
-      "SNIHost": "m.google.com",
-      "isDefProxy": true,
-      "ProxyHost": "",
-      "ProxyPort": ""
-    },
-    {
-      "Name": "Test Proxy",
-      "Info": "Unlimited Tunneling",
-      "Icon": "omantel",
-      "TunnelType": 1,
-      "Payload": "CONNECT [host_port] [protocol][crlf]Host: m.google.com[crlf][crlf]",
-      "SNIHost": "m.google.com",
+      "Payload": "HEAD wss://noloadbalance.globe.com.ph HTTP/1.1\nhost: nkstatic.com[crlf][crlf][split]PATCH wss://surfalert.globe.com.ph HTTP/1.1\nHost: ovpn-zsg03.bmqb.net\nUpgrade: Websocket[crlf][crlf]",
+      "SNIHost": "10dqeshtte.execute-api.me-south-1.amazonaws.com",
       "isDefProxy": false,
-      "ProxyHost": "",
-      "ProxyPort": "8080"
-    },
-    {
-      "Name": "Websocket Uno",
-      "Info": "VolterVPN",
-      "Icon": "mtn",
-      "TunnelType": 1,
-      "Payload": "CONNECT  http://www.payfort.com:80 HTTP/1.1[crlf]Host: a.arakanvpn.us[crlf]Connection: Upgrade, HTTP2-Settings\\n &gt; Upgrade: Go-http-client/1.1 [crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
-      "SNIHost": "m.google.com",
-      "isDefProxy": false,
-      "ProxyHost": "www.payfort.com",
-      "ProxyPort": "80"
-    },
-    {
-      "Name": "Websocket Dos",
-      "Info": "VolterVPN",
-      "Icon": "twitter",
-      "TunnelType": 1,
-      "Payload": "CONNECT  http://www.payfort.com:80 HTTP/1.1[crlf]Host: a.arakanvpn.us[crlf]Connection: Upgrade, HTTP2-Settings\n &gt; Upgrade: Go-http-client/1.1 [crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
-      "SNIHost": "m.google.com",
-      "isDefProxy": false,
-      "ProxyHost": "www.payfort.com",
-      "ProxyPort": "80"
-    },
-    {
-      "Name": "Websocket Tres",
-      "Info": "VolterVPN",
-      "Icon": "viva",
-      "TunnelType": 1,
-      "Payload": "CONNECT  http://www.payfort.com:80 HTTP/1.1[crlf]Host: zainfree.arakanvpn.us[crlf]Connection: Upgrade, HTTP2-Settings\\n &gt; Upgrade: Go-http-client/1.1 [crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
-      "SNIHost": "m.google.com",
-      "isDefProxy": false,
-      "ProxyHost": "www.payfort.com",
-      "ProxyPort": "80"
-    },
-    {
-      "Name": "Websocket Panda",
-      "Info": "VolterVPN",
-      "Icon": "wechat",
-      "TunnelType": 1,
-      "Payload": "CONNECT  http://www.payfort.com:80 HTTP/1.1[crlf]Host: volter.pandavpn.us[crlf]Connection: Upgrade, HTTP2-Settings\\n &gt; Upgrade: Go-http-client/1.1 [crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
-      "SNIHost": "m.google.com",
-      "isDefProxy": false,
-      "ProxyHost": "www.payfort.com",
+      "ProxyHost": "Remoteproxy.dattebayo.org",
       "ProxyPort": "80"
     }
-  ]
+  ],
+  "Username": "speedyssh.com-awit",
+  "Password": "awit"
 }
