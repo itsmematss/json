@@ -1,0 +1,115 @@
+{
+  "Version": "1.0",
+  "Gaming": [
+    {
+      "Name": "Mobile Legends: Bang Bang",
+      "Package": "com.mobile.legends"
+    },
+    {
+      "Name": "PUBG MOBILE: RESISTANCE",
+      "Package": "com.tencent.ig"
+    },
+    {
+      "Name": "Modern Ops - Gun Shooting Games FPS",
+      "Package": "com.edkongames.mobs"
+    },
+    {
+      "Name": "Roblox",
+      "Package": "com.roblox.client"
+    },
+    {
+      "Name": "Among Us",
+      "Package": "com.innersloth.spacemafia"
+    },
+    {
+      "Name": "League of Legends: Wild Rift",
+      "Package": "com.riotgames.league.wildrift"
+    },
+    {
+      "Name": "Legends of Runeterra",
+      "Package": "com.riotgames.legendsofruneterra"
+    },
+    {
+      "Name": "Summoners War",
+      "Package": "com.com2us.smon.normal.freefull.google.kr.android.common"
+    },
+    {
+      "Name": "Summoners War: Lost Centuria",
+      "Package": "com.com2us.lostcenturia.android.google.global.normal"
+    },
+    {
+      "Name": "Arena of Valor",
+      "Package": "com.ngame.allstar.eu"
+    },
+    {
+      "Name": "Heroes Evolved",
+      "Package": "com.rsg.heroesevolved"
+    },
+    {
+      "Name": "Clash of Clans",
+      "Package": "com.supercell.clashofclans"
+    },
+    {
+      "Name": "Call of Duty®: Mobile - Season 9: NIGHTMARE",
+      "Package": "com.activision.callofduty.shooter"
+    },
+    {
+      "Name": "Chrome",
+      "Package": "com.android.chrome"
+    }
+  ],
+  "VOIP": [
+    {
+      "Name": "Facebook Messenger",
+      "Package": "com.facebook.orca"
+    },
+    {
+      "Name": "WhatsApp Messenger",
+      "Package": "com.whatsapp"
+    }
+  ],
+  "Torrent": [
+    {
+      "Name": "µTorrent® - Torrent Downloader",
+      "Package": "com.utorrent.client"
+    },
+    {
+      "Name": "WeTorrent - Torrent Downloader",
+      "Package": "co.we.torrent"
+    },
+    {
+      "Name": "BitTorrent®- Torrent Downloads",
+      "Package": "com.bittorrent.client"
+    },
+    {
+      "Name": "tTorrent Lite - Torrent Client",
+      "Package": "hu.tagsoft.ttorrent.lite"
+    }
+  ],
+  "Blacklist": [
+    {
+      "Name": "Via",
+      "Package": "mark.via.gp"
+    },
+    {
+      "Name": "Browser",
+      "Package": "quick.browser.secure"
+    },
+    {
+      "Name": "µTorrent® - Torrent Downloader",
+      "Package": "com.utorrent.client"
+    },
+    {
+      "Name": "WeTorrent - Torrent Downloader",
+      "Package": "co.we.torrent"
+    },
+    {
+      "Name": "BitTorrent®- Torrent Downloads",
+      "Package": "com.bittorrent.client"
+    },
+    {
+      "Name": "tTorrent Lite - Torrent Client",
+      "Package": "hu.tagsoft.ttorrent.lite"
+    }
+  ]
+}
