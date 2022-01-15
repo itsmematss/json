@@ -1,0 +1,114 @@
+{
+  "Version": "1.1",
+  "ReleaseNotes": "Build by Matss",
+  "Networks": [
+    {
+      "Name": "TCP Connect",
+      "Info": "Unlimited Tunneling",
+      "Icon": "whatapp",
+      "Payload": "CONNECT [host_port] [protocol][crlf]Host: m.google.com[crlf][crlf]",
+      "SNIHost": "m.google.com",
+      "TunnelMethod": 0,
+      "TunnelType": 1,
+      "isDefProxy": true,
+      "ProxyHost": "",
+      "ProxyPort": ""
+    },
+    {
+      "Name": "SSL Connect",
+      "Info": "Unlimited Tunneling",
+      "Icon": "twitter",
+      "Payload": "g",
+      "SNIHost": "m.google.com",
+      "TunnelMethod": 0,
+      "TunnelType": 2,
+      "isDefProxy": true,
+      "ProxyHost": "",
+      "ProxyPort": ""
+    },
+    {
+      "Name": "SSH HTTP Proxy",
+      "Info": "Unlimited Tunneling",
+      "Icon": "whatapp",
+      "Payload": "CONNECT [host_port] [protocol][crlf]Host: m.google.com[crlf][crlf]",
+      "SNIHost": "m.google.com",
+      "TunnelMethod": 1,
+      "TunnelType": 1,
+      "isDefProxy": true,
+      "ProxyHost": "",
+      "ProxyPort": ""
+    },
+    {
+      "Name": "SSH SSL",
+      "Info": "Unlimited Tunneling",
+      "Icon": "twitter",
+      "Payload": "g",
+      "SNIHost": "m.google.com",
+      "TunnelMethod": 1,
+      "TunnelType": 2,
+      "isDefProxy": true,
+      "ProxyHost": "",
+      "ProxyPort": ""
+    },
+    {
+      "Name": "Tweak 05",
+      "Info": "Unlimited Tunneling",
+      "Icon": "wechat",
+      "Payload": "g",
+      "SNIHost": "m.google.com",
+      "TunnelMethod": 1,
+      "TunnelType": 1,
+      "isDefProxy": true,
+      "ProxyHost": "",
+      "ProxyPort": ""
+    },
+    {
+      "Name": "Tweak 06",
+      "Info": "Unlimited Tunneling",
+      "Icon": "netflix",
+      "Payload": "g",
+      "SNIHost": "m.google.com",
+      "TunnelMethod": 1,
+      "TunnelType": 1,
+      "isDefProxy": true,
+      "ProxyHost": "",
+      "ProxyPort": ""
+    },
+    {
+      "Name": "Tweak 07",
+      "Info": "Unlimited Tunneling",
+      "Icon": "skype",
+      "Payload": "g",
+      "SNIHost": "m.google.com",
+      "TunnelMethod": 1,
+      "TunnelType": 1,
+      "isDefProxy": true,
+      "ProxyHost": "",
+      "ProxyPort": ""
+    },
+    {
+      "Name": "Tweak 08",
+      "Info": "Unlimited Tunneling",
+      "Icon": "mtn",
+      "Payload": "g",
+      "SNIHost": "m.google.com",
+      "TunnelMethod": 1,
+      "TunnelType": 1,
+      "isDefProxy": true,
+      "ProxyHost": "",
+      "ProxyPort": ""
+    },
+    {
+      "Name": "Tweak 09",
+      "Info": "Unlimited Tunneling",
+      "Icon": "stc",
+      "Payload": "g",
+      "SNIHost": "m.google.com",
+      "TunnelMethod": 1,
+      "TunnelType": 1,
+      "isDefProxy": true,
+      "ProxyHost": "",
+      "ProxyPort": ""
+    }
+  ]
+}
