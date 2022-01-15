@@ -3,7 +3,7 @@
   "ReleaseNotes": "Build by Matss | Version 1.1",
   "Servers": [
     {
-      "Name": "Speedy OVPN",
+      "Name": "MTS Speedy OVPN",
       "Flag": "sg",
       "Info": "OVPN Server",
       "Category": 0,
