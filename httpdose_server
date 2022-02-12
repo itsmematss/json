@@ -1,0 +1,305 @@
+{
+  "Version": "1.1",
+  "Servers": [
+    {
+      "Name": "Cafe 01",
+      "Flag": "ph",
+      "Info": "Unlimited Tunneling",
+      "SSH": {
+        "server_ip": "139.59.229.203",
+        "openssh": "22",
+        "dropbear": "550",
+        "stunnel": "443"
+      },
+      "DNSTT": {
+        "public_key": "28e9255ec06d9244c988fd9c4556b902bb19eaa3ba29824194f9303489b0d635",
+        "name_server": "xsg08-dns.bmqb.net"
+      },
+      "Authentication": {
+        "username": "cafe-deku",
+        "password": "dekukun"
+      },
+      "RemoteProxy": {
+        "proxy_ip": "139.59.229.203",
+        "proxy_port": "8080"
+      },
+      "Torrent": false,
+      "Gaming": true
+    },
+    {
+      "Name": "Server 02",
+      "Flag": "sg",
+      "Info": "Unlimited Tunneling",
+      "SSH": {
+        "server_ip": "157.245.156.191",
+        "openssh": "22",
+        "dropbear": "550",
+        "stunnel": "443"
+      },
+      "DNSTT": {
+        "public_key": "28e9255ec06d9244c988fd9c4556b902bb19eaa3ba29824194f9303489b0d635",
+        "name_server": "xsg08-dns.bmqb.net"
+      },
+      "Authentication": {
+        "username": "speedyssh.com-mtsdeku01",
+        "password": "mtsdeku01"
+      },
+      "RemoteProxy": {
+        "proxy_ip": "157.245.156.191",
+        "proxy_port": "8080"
+      },
+      "Torrent": false,
+      "Gaming": false
+    },
+    {
+      "Name": "Server 03",
+      "Flag": "sg",
+      "Info": "Unlimited Tunneling",
+      "SSH": {
+        "server_ip": "157.245.156.192",
+        "openssh": "22",
+        "dropbear": "550",
+        "stunnel": "443"
+      },
+      "DNSTT": {
+        "public_key": "28e9255ec06d9244c988fd9c4556b902bb19eaa3ba29824194f9303489b0d635",
+        "name_server": "xsg08-dns.bmqb.net"
+      },
+      "Authentication": {
+        "username": "speedyssh.com-mtsdeku01",
+        "password": "mtsdeku01"
+      },
+      "RemoteProxy": {
+        "proxy_ip": "157.245.156.192",
+        "proxy_port": "8080"
+      },
+      "Torrent": true,
+      "Gaming": true
+    },
+    {
+      "Name": "Server 04",
+      "Flag": "sg",
+      "Info": "Unlimited Tunneling",
+      "SSH": {
+        "server_ip": "157.245.156.191",
+        "openssh": "22",
+        "dropbear": "550",
+        "stunnel": "443"
+      },
+      "DNSTT": {
+        "public_key": "28e9255ec06d9244c988fd9c4556b902bb19eaa3ba29824194f9303489b0d635",
+        "name_server": "xsg08-dns.bmqb.net"
+      },
+      "Authentication": {
+        "username": "speedyssh.com-mtsdeku01",
+        "password": "mtsdeku01"
+      },
+      "RemoteProxy": {
+        "proxy_ip": "157.245.156.191",
+        "proxy_port": "8080"
+      },
+      "Torrent": true,
+      "Gaming": false
+    },
+    {
+      "Name": "Server 05",
+      "Flag": "sg",
+      "Info": "Unlimited Tunneling",
+      "SSH": {
+        "server_ip": "157.245.156.192",
+        "openssh": "22",
+        "dropbear": "550",
+        "stunnel": "443"
+      },
+      "DNSTT": {
+        "public_key": "28e9255ec06d9244c988fd9c4556b902bb19eaa3ba29824194f9303489b0d635",
+        "name_server": "xsg08-dns.bmqb.net"
+      },
+      "Authentication": {
+        "username": "speedyssh.com-mtsdeku01",
+        "password": "mtsdeku01"
+      },
+      "RemoteProxy": {
+        "proxy_ip": "157.245.156.192",
+        "proxy_port": "8080"
+      },
+      "Torrent": true,
+      "Gaming": true
+    },
+    {
+      "Name": "Server 06",
+      "Flag": "sg",
+      "Info": "Unlimited Tunneling",
+      "SSH": {
+        "server_ip": "157.245.156.192",
+        "openssh": "22",
+        "dropbear": "550",
+        "stunnel": "443"
+      },
+      "DNSTT": {
+        "public_key": "28e9255ec06d9244c988fd9c4556b902bb19eaa3ba29824194f9303489b0d635",
+        "name_server": "xsg08-dns.bmqb.net"
+      },
+      "Authentication": {
+        "username": "speedyssh.com-mtsdeku01",
+        "password": "mtsdeku01"
+      },
+      "RemoteProxy": {
+        "proxy_ip": "157.245.156.192",
+        "proxy_port": "8080"
+      },
+      "Torrent": true,
+      "Gaming": true
+    },
+    {
+      "Name": "Server 07",
+      "Flag": "sg",
+      "Info": "Unlimited Tunneling",
+      "SSH": {
+        "server_ip": "157.245.156.192",
+        "openssh": "22",
+        "dropbear": "550",
+        "stunnel": "443"
+      },
+      "DNSTT": {
+        "public_key": "28e9255ec06d9244c988fd9c4556b902bb19eaa3ba29824194f9303489b0d635",
+        "name_server": "xsg08-dns.bmqb.net"
+      },
+      "Authentication": {
+        "username": "speedyssh.com-mtsdeku01",
+        "password": "mtsdeku01"
+      },
+      "RemoteProxy": {
+        "proxy_ip": "157.245.156.192",
+        "proxy_port": "8080"
+      },
+      "Torrent": false,
+      "Gaming": true
+    },
+    {
+      "Name": "Server 08",
+      "Flag": "sg",
+      "Info": "Unlimited Tunneling",
+      "SSH": {
+        "server_ip": "157.245.156.192",
+        "openssh": "22",
+        "dropbear": "550",
+        "stunnel": "443"
+      },
+      "DNSTT": {
+        "public_key": "28e9255ec06d9244c988fd9c4556b902bb19eaa3ba29824194f9303489b0d635",
+        "name_server": "xsg08-dns.bmqb.net"
+      },
+      "Authentication": {
+        "username": "speedyssh.com-mtsdeku01",
+        "password": "mtsdeku01"
+      },
+      "RemoteProxy": {
+        "proxy_ip": "157.245.156.192",
+        "proxy_port": "8080"
+      },
+      "Torrent": true,
+      "Gaming": true
+    },
+    {
+      "Name": "Server 09",
+      "Flag": "sg",
+      "Info": "Unlimited Tunneling",
+      "SSH": {
+        "server_ip": "157.245.156.192",
+        "openssh": "22",
+        "dropbear": "550",
+        "stunnel": "443"
+      },
+      "DNSTT": {
+        "public_key": "28e9255ec06d9244c988fd9c4556b902bb19eaa3ba29824194f9303489b0d635",
+        "name_server": "xsg08-dns.bmqb.net"
+      },
+      "Authentication": {
+        "username": "speedyssh.com-mtsdeku01",
+        "password": "mtsdeku01"
+      },
+      "RemoteProxy": {
+        "proxy_ip": "157.245.156.192",
+        "proxy_port": "8080"
+      },
+      "Torrent": true,
+      "Gaming": true
+    },
+    {
+      "Name": "Server 10",
+      "Flag": "sg",
+      "Info": "Unlimited Tunneling",
+      "SSH": {
+        "server_ip": "157.245.156.192",
+        "openssh": "22",
+        "dropbear": "550",
+        "stunnel": "443"
+      },
+      "DNSTT": {
+        "public_key": "28e9255ec06d9244c988fd9c4556b902bb19eaa3ba29824194f9303489b0d635",
+        "name_server": "xsg08-dns.bmqb.net"
+      },
+      "Authentication": {
+        "username": "speedyssh.com-mtsdeku01",
+        "password": "mtsdeku01"
+      },
+      "RemoteProxy": {
+        "proxy_ip": "157.245.156.192",
+        "proxy_port": "8080"
+      },
+      "Torrent": false,
+      "Gaming": false
+    },
+    {
+      "Name": "Server 11",
+      "Flag": "sg",
+      "Info": "Unlimited Tunneling",
+      "SSH": {
+        "server_ip": "157.245.156.192",
+        "openssh": "22",
+        "dropbear": "550",
+        "stunnel": "443"
+      },
+      "DNSTT": {
+        "public_key": "28e9255ec06d9244c988fd9c4556b902bb19eaa3ba29824194f9303489b0d635",
+        "name_server": "xsg08-dns.bmqb.net"
+      },
+      "Authentication": {
+        "username": "speedyssh.com-mtsdeku01",
+        "password": "mtsdeku01"
+      },
+      "RemoteProxy": {
+        "proxy_ip": "157.245.156.192",
+        "proxy_port": "8080"
+      },
+      "Torrent": false,
+      "Gaming": true
+    },
+    {
+      "Name": "Server 12",
+      "Flag": "sg",
+      "Info": "Unlimited Tunneling",
+      "SSH": {
+        "server_ip": "157.245.156.192",
+        "openssh": "22",
+        "dropbear": "550",
+        "stunnel": "443"
+      },
+      "DNSTT": {
+        "public_key": "28e9255ec06d9244c988fd9c4556b902bb19eaa3ba29824194f9303489b0d635",
+        "name_server": "xsg08-dns.bmqb.net"
+      },
+      "Authentication": {
+        "username": "speedyssh.com-mtsdeku01",
+        "password": "mtsdeku01"
+      },
+      "RemoteProxy": {
+        "proxy_ip": "157.245.156.192",
+        "proxy_port": "8080"
+      },
+      "Torrent": true,
+      "Gaming": false
+    }
+  ]
+}
