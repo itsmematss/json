@@ -1,5 +1,6 @@
 {
   "Version": "1.1",
+  "Messages": "Added Server!",
   "Servers": [
     {
       "Name": "Cafe 01",
