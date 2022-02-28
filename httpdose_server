@@ -1,306 +1,71 @@
-{
-  "Version": "1.1",
-  "Messages": "Added Server! \n Build by Matss",
-  "Servers": [
-    {
-      "Name": "Cafe 01",
-      "Flag": "ph",
-      "Info": "Unlimited Tunneling",
-      "SSH": {
-        "server_ip": "139.59.229.203",
-        "openssh": "22",
-        "dropbear": "550",
-        "stunnel": "443"
-      },
-      "DNSTT": {
-        "public_key": "28e9255ec06d9244c988fd9c4556b902bb19eaa3ba29824194f9303489b0d635",
-        "name_server": "xsg08-dns.bmqb.net"
-      },
-      "Authentication": {
-        "username": "cafe-deku",
-        "password": "dekukun"
-      },
-      "RemoteProxy": {
-        "proxy_ip": "139.59.229.203",
-        "proxy_port": "8080"
-      },
-      "Torrent": false,
-      "Gaming": true
-    },
-    {
-      "Name": "Server 02",
-      "Flag": "sg",
-      "Info": "Unlimited Tunneling",
-      "SSH": {
-        "server_ip": "157.245.156.191",
-        "openssh": "22",
-        "dropbear": "550",
-        "stunnel": "443"
-      },
-      "DNSTT": {
-        "public_key": "28e9255ec06d9244c988fd9c4556b902bb19eaa3ba29824194f9303489b0d635",
-        "name_server": "xsg08-dns.bmqb.net"
-      },
-      "Authentication": {
-        "username": "speedyssh.com-mtsdeku01",
-        "password": "mtsdeku01"
-      },
-      "RemoteProxy": {
-        "proxy_ip": "157.245.156.191",
-        "proxy_port": "8080"
-      },
-      "Torrent": false,
-      "Gaming": false
-    },
-    {
-      "Name": "Server 03",
-      "Flag": "sg",
-      "Info": "Unlimited Tunneling",
-      "SSH": {
-        "server_ip": "157.245.156.192",
-        "openssh": "22",
-        "dropbear": "550",
-        "stunnel": "443"
-      },
-      "DNSTT": {
-        "public_key": "28e9255ec06d9244c988fd9c4556b902bb19eaa3ba29824194f9303489b0d635",
-        "name_server": "xsg08-dns.bmqb.net"
-      },
-      "Authentication": {
-        "username": "speedyssh.com-mtsdeku01",
-        "password": "mtsdeku01"
-      },
-      "RemoteProxy": {
-        "proxy_ip": "157.245.156.192",
-        "proxy_port": "8080"
-      },
-      "Torrent": true,
-      "Gaming": true
-    },
-    {
-      "Name": "Server 04",
-      "Flag": "sg",
-      "Info": "Unlimited Tunneling",
-      "SSH": {
-        "server_ip": "157.245.156.191",
-        "openssh": "22",
-        "dropbear": "550",
-        "stunnel": "443"
-      },
-      "DNSTT": {
-        "public_key": "28e9255ec06d9244c988fd9c4556b902bb19eaa3ba29824194f9303489b0d635",
-        "name_server": "xsg08-dns.bmqb.net"
-      },
-      "Authentication": {
-        "username": "speedyssh.com-mtsdeku01",
-        "password": "mtsdeku01"
-      },
-      "RemoteProxy": {
-        "proxy_ip": "157.245.156.191",
-        "proxy_port": "8080"
-      },
-      "Torrent": true,
-      "Gaming": false
-    },
-    {
-      "Name": "Server 05",
-      "Flag": "sg",
-      "Info": "Unlimited Tunneling",
-      "SSH": {
-        "server_ip": "157.245.156.192",
-        "openssh": "22",
-        "dropbear": "550",
-        "stunnel": "443"
-      },
-      "DNSTT": {
-        "public_key": "28e9255ec06d9244c988fd9c4556b902bb19eaa3ba29824194f9303489b0d635",
-        "name_server": "xsg08-dns.bmqb.net"
-      },
-      "Authentication": {
-        "username": "speedyssh.com-mtsdeku01",
-        "password": "mtsdeku01"
-      },
-      "RemoteProxy": {
-        "proxy_ip": "157.245.156.192",
-        "proxy_port": "8080"
-      },
-      "Torrent": true,
-      "Gaming": true
-    },
-    {
-      "Name": "Server 06",
-      "Flag": "sg",
-      "Info": "Unlimited Tunneling",
-      "SSH": {
-        "server_ip": "157.245.156.192",
-        "openssh": "22",
-        "dropbear": "550",
-        "stunnel": "443"
-      },
-      "DNSTT": {
-        "public_key": "28e9255ec06d9244c988fd9c4556b902bb19eaa3ba29824194f9303489b0d635",
-        "name_server": "xsg08-dns.bmqb.net"
-      },
-      "Authentication": {
-        "username": "speedyssh.com-mtsdeku01",
-        "password": "mtsdeku01"
-      },
-      "RemoteProxy": {
-        "proxy_ip": "157.245.156.192",
-        "proxy_port": "8080"
-      },
-      "Torrent": true,
-      "Gaming": true
-    },
-    {
-      "Name": "Server 07",
-      "Flag": "sg",
-      "Info": "Unlimited Tunneling",
-      "SSH": {
-        "server_ip": "157.245.156.192",
-        "openssh": "22",
-        "dropbear": "550",
-        "stunnel": "443"
-      },
-      "DNSTT": {
-        "public_key": "28e9255ec06d9244c988fd9c4556b902bb19eaa3ba29824194f9303489b0d635",
-        "name_server": "xsg08-dns.bmqb.net"
-      },
-      "Authentication": {
-        "username": "speedyssh.com-mtsdeku01",
-        "password": "mtsdeku01"
-      },
-      "RemoteProxy": {
-        "proxy_ip": "157.245.156.192",
-        "proxy_port": "8080"
-      },
-      "Torrent": false,
-      "Gaming": true
-    },
-    {
-      "Name": "Server 08",
-      "Flag": "sg",
-      "Info": "Unlimited Tunneling",
-      "SSH": {
-        "server_ip": "157.245.156.192",
-        "openssh": "22",
-        "dropbear": "550",
-        "stunnel": "443"
-      },
-      "DNSTT": {
-        "public_key": "28e9255ec06d9244c988fd9c4556b902bb19eaa3ba29824194f9303489b0d635",
-        "name_server": "xsg08-dns.bmqb.net"
-      },
-      "Authentication": {
-        "username": "speedyssh.com-mtsdeku01",
-        "password": "mtsdeku01"
-      },
-      "RemoteProxy": {
-        "proxy_ip": "157.245.156.192",
-        "proxy_port": "8080"
-      },
-      "Torrent": true,
-      "Gaming": true
-    },
-    {
-      "Name": "Server 09",
-      "Flag": "sg",
-      "Info": "Unlimited Tunneling",
-      "SSH": {
-        "server_ip": "157.245.156.192",
-        "openssh": "22",
-        "dropbear": "550",
-        "stunnel": "443"
-      },
-      "DNSTT": {
-        "public_key": "28e9255ec06d9244c988fd9c4556b902bb19eaa3ba29824194f9303489b0d635",
-        "name_server": "xsg08-dns.bmqb.net"
-      },
-      "Authentication": {
-        "username": "speedyssh.com-mtsdeku01",
-        "password": "mtsdeku01"
-      },
-      "RemoteProxy": {
-        "proxy_ip": "157.245.156.192",
-        "proxy_port": "8080"
-      },
-      "Torrent": true,
-      "Gaming": true
-    },
-    {
-      "Name": "Server 10",
-      "Flag": "sg",
-      "Info": "Unlimited Tunneling",
-      "SSH": {
-        "server_ip": "157.245.156.192",
-        "openssh": "22",
-        "dropbear": "550",
-        "stunnel": "443"
-      },
-      "DNSTT": {
-        "public_key": "28e9255ec06d9244c988fd9c4556b902bb19eaa3ba29824194f9303489b0d635",
-        "name_server": "xsg08-dns.bmqb.net"
-      },
-      "Authentication": {
-        "username": "speedyssh.com-mtsdeku01",
-        "password": "mtsdeku01"
-      },
-      "RemoteProxy": {
-        "proxy_ip": "157.245.156.192",
-        "proxy_port": "8080"
-      },
-      "Torrent": false,
-      "Gaming": false
-    },
-    {
-      "Name": "Server 11",
-      "Flag": "sg",
-      "Info": "Unlimited Tunneling",
-      "SSH": {
-        "server_ip": "157.245.156.192",
-        "openssh": "22",
-        "dropbear": "550",
-        "stunnel": "443"
-      },
-      "DNSTT": {
-        "public_key": "28e9255ec06d9244c988fd9c4556b902bb19eaa3ba29824194f9303489b0d635",
-        "name_server": "xsg08-dns.bmqb.net"
-      },
-      "Authentication": {
-        "username": "speedyssh.com-mtsdeku01",
-        "password": "mtsdeku01"
-      },
-      "RemoteProxy": {
-        "proxy_ip": "157.245.156.192",
-        "proxy_port": "8080"
-      },
-      "Torrent": false,
-      "Gaming": true
-    },
-    {
-      "Name": "Server 12",
-      "Flag": "sg",
-      "Info": "Unlimited Tunneling",
-      "SSH": {
-        "server_ip": "157.245.156.192",
-        "openssh": "22",
-        "dropbear": "550",
-        "stunnel": "443"
-      },
-      "DNSTT": {
-        "public_key": "28e9255ec06d9244c988fd9c4556b902bb19eaa3ba29824194f9303489b0d635",
-        "name_server": "xsg08-dns.bmqb.net"
-      },
-      "Authentication": {
-        "username": "speedyssh.com-mtsdeku01",
-        "password": "mtsdeku01"
-      },
-      "RemoteProxy": {
-        "proxy_ip": "157.245.156.192",
-        "proxy_port": "8080"
-      },
-      "Torrent": true,
-      "Gaming": false
-    }
-  ]
-}
+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
