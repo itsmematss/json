@@ -1,0 +1,516 @@
+{
+  "Blacklist": [
+    {
+      "Name": "TorrDroid - Torrent Downloader",
+      "Package": "intelligems.torrdroid"
+    },
+    {
+      "Name": "Flud",
+      "Package": "com.delphicoder.flud"
+    },
+    {
+      "Name": "µTorrent® - Torrent Downloader",
+      "Package": "com.utorrent.client"
+    },
+    {
+      "Name": "WeTorrent - Torrent Downloader",
+      "Package": "co.we.torrent"
+    },
+    {
+      "Name": "BitTorrent®- Torrent Downloads",
+      "Package": "com.bittorrent.client"
+    },
+    {
+      "Name": "1337x Torrent Search Engine",
+      "Package": "com.torro.kali"
+    },
+    {
+      "Name": "BitLord",
+      "Package": "com.houseoflife.bitlord"
+    },
+    {
+      "Name": "LibreTorrent",
+      "Package": "org.proninyaroslav.libretorrent"
+    },
+    {
+      "Name": "Vuze Torrent Downloader",
+      "Package": "com.vuze.torrent.downloader"
+    },
+    {
+      "Name": "Flud (Ad free)",
+      "Package": "com.delphicoder.flud.paid"
+    },
+    {
+      "Name": "tTorrent",
+      "Package": "hu.tagsoft.ttorrent.noads"
+    },
+    {
+      "Name": "BiglyBT",
+      "Package": "com.biglybt.android.client"
+    },
+    {
+      "Name": "ADM",
+      "Package": "com.dv.adm"
+    },
+    {
+      "Name": "1DM",
+      "Package": "dm.internet.download.manager"
+    },
+    {
+      "Name": "AIO Downloader",
+      "Package": "com.tehnicalicndia.statussaver"
+    },
+    {
+      "Name": "AIO Downloader - Social Media Video Downloader",
+      "Package": "com.oyenair.statussaver"
+    },
+    {
+      "Name": "Torrent Pro",
+      "Package": "in.gopalakrishnareddy.torrent"
+    },
+    {
+      "Name": "aTorrent",
+      "Package": "com.mobilityflow.torrent"
+    },
+    {
+      "Name": "FrostWire",
+      "Package": "com.frostwire.android"
+    },
+    {
+      "Name": "Torrent Search Engine",
+      "Package": "codexial.movies.torrent"
+    },
+    {
+      "Name": "Turbo Torrent",
+      "Package": "co.turbotorrentapp.downloader"
+    },
+    {
+      "Name": "Torrent Downloader",
+      "Package": "com.halle.torrentdownloader"
+    },
+    {
+      "Name": "Torrent Revolution",
+      "Package": "torrent.search.revolution"
+    },
+    {
+      "Name": "Torrent Downloader",
+      "Package": "com.akingi.torrent"
+    },
+    {
+      "Name": "Transmission BTC",
+      "Package": "com.ap.transmission.btc"
+    },
+    {
+      "Name": "Fluid - Torrent Downloader | Torrent Magnet",
+      "Package": "free.full.torrent.moviedownloader"
+    },
+    {
+      "Name": "торент - म Torrent Downloader",
+      "Package": "com.mtorrent.client"
+    },
+    {
+      "Name": "tTorrent Lite - Torrent Client",
+      "Package": "hu.tagsoft.ttorrent.lite"
+    },
+    {
+      "Name": "BitTorrent Now",
+      "Package": "com.bittorrent.bundle"
+    },
+    {
+      "Name": "Blue Torrent",
+      "Package": "com.robotemplates.orangevve"
+    },
+    {
+      "Name": "Blue Torrent",
+      "Package": "com.robotemplates.bluemeraha"
+    },
+    {
+      "Name": "Breeze",
+      "Package": "org.viento.breeze"
+    },
+    {
+      "Name": "BTorrent",
+      "Package": "org.btorrent.hgcor"
+    },
+    {
+      "Name": "CatTorrent",
+      "Package": "com.napolovd.piratecat"
+    },
+    {
+      "Name": "Citrio Browser",
+      "Package": "com.citrio"
+    },
+    {
+      "Name": "Cloud Torrent",
+      "Package": "com.cloud.cloud.torrent"
+    },
+    {
+      "Name": "Cloud Torrent Pro",
+      "Package": "com.cloud.torrent"
+    },
+    {
+      "Name": "CzTorrent",
+      "Package": "cz.jozka1.czt"
+    },
+    {
+      "Name": "D.A.S.T.",
+      "Package": "org.itsasoftware.dast"
+    },
+    {
+      "Name": "Direct Torrents",
+      "Package": "ultramathi.blogspot.com.directtorrents"
+    },
+    {
+      "Name": "Dirty Torrents",
+      "Package": "dirtytorrents.com"
+    },
+    {
+      "Name": "Download Accelerator Plus",
+      "Package": "com.rubycell.apps.internet.download.manager"
+    },
+    {
+      "Name": "DrTorrent",
+      "Package": "hu.bute.daai.amorg.drtorrent"
+    },
+    {
+      "Name": "DS get",
+      "Package": "com.synology.DSdownload"
+    },
+    {
+      "Name": "Fast Download Manager",
+      "Package": "com.mdm"
+    },
+    {
+      "Name": "FilePursuit",
+      "Package": "com.filepursuit.filepursuit"
+    },
+    {
+      "Name": "Filmo Browser",
+      "Package": "com.youngfilmmakerz.filmobrowseryify"
+    },
+    {
+      "Name": "Flow",
+      "Package": "ru.andrikeev.android.flow"
+    },
+    {
+      "Name": "Free Full Movies Downloader",
+      "Package": "com.apco.freefullmoviesdownloader"
+    },
+    {
+      "Name": "Free Movie Download",
+      "Package": "com.young.ja.torrent"
+    },
+    {
+      "Name": "FreeMovieDownload",
+      "Package": "com.rjsolution.freemoviedownload"
+    },
+    {
+      "Name": "FrostWire",
+      "Package": "com.frostwire.android"
+    },
+    {
+      "Name": "Get Series",
+      "Package": "com.rasecx.getSeries"
+    },
+    {
+      "Name": "Googly",
+      "Package": "net.azurewebsites.subinsv.googlyomg"
+    },
+    {
+      "Name": "GoTorrent",
+      "Package": "com.bittorrent.download.torrent.go"
+    },
+    {
+      "Name": "Harry's Torrent Finder",
+      "Package": "com.harrisonhorowitz.harrisonhorowitz.torrentsearcher"
+    },
+    {
+      "Name": "IDM",
+      "Package": "idm.internet.download.manager"
+    },
+    {
+      "Name": "IDM Plus",
+      "Package": "idm.internet.download.manager.plus"
+    },
+    {
+      "Name": "IDM Lite",
+      "Package": "idm.internet.download.manager.adm.lite"
+    },
+    {
+      "Name": "İndirme Yöneticisi Plus",
+      "Package": "com.herasoft.indirmeyoneticisi"
+    },
+    {
+      "Name": "IQTorrent",
+      "Package": "ru.jsql.android.torrent"
+    },
+    {
+      "Name": "LibreTorrent",
+      "Package": "org.proninyaroslav.libretorrent"
+    },
+    {
+      "Name": "LibreTorrent",
+      "Package": "com.freshup.moviedownloader"
+    },
+    {
+      "Name": "Little Magnet BT",
+      "Package": "io.github.skyhacker2.magnetsearch"
+    },
+    {
+      "Name": "Loadbt",
+      "Package": "com.loadbt.loadbt"
+    },
+    {
+      "Name": "LoaderDroid",
+      "Package": "org.zloy.android.downloader"
+    },
+    {
+      "Name": "Magnet Torrent Player",
+      "Package": "com.iiplayer.sunplayer"
+    },
+    {
+      "Name": "MagnetBox",
+      "Package": "com.yyp.seedboxs"
+    },
+    {
+      "Name": "MagnetCat",
+      "Package": "com.magnet.torrent.cat"
+    },
+    {
+      "Name": "Material Torrent Downloader Free",
+      "Package": "com.pk.torrentdw"
+    },
+    {
+      "Name": "Max Torrent",
+      "Package": "com.madmaxinc.torrent"
+    },
+    {
+      "Name": "MediaGet",
+      "Package": "com.mediaget.android"
+    },
+    {
+      "Name": "MediaTor",
+      "Package": "zig.zak.media.tor"
+    },
+    {
+      "Name": "MoaRatio",
+      "Package": "com.natinusala.moaratio"
+    },
+    {
+      "Name": "MobMovie",
+      "Package": "com.dextersbrain.mobmovie"
+    },
+    {
+      "Name": "Movie Browser YIFY",
+      "Package": "torrent.movies.yts"
+    },
+    {
+      "Name": "Movie Downloader",
+      "Package": "it.apptok.torrent"
+    },
+    {
+      "Name": "Movie Downloader",
+      "Package": "com.squareup.moviedownloader"
+    },
+    {
+      "Name": "Movie Downloader",
+      "Package": "downloader.torrent.moviedownloader"
+    },
+    {
+      "Name": "Movie Downloader Torrent",
+      "Package": "com.techp.mediadownloader"
+    },
+    {
+      "Name": "MTorrent",
+      "Package": "com.sarvinbatra.mTorrent"
+    },
+    {
+      "Name": "Transmission Remote",
+      "Package": "net.yupol.transmissionremote.app"
+    },
+    {
+      "Name": "Tremotesf",
+      "Package": "org.equeim.tremotesf"
+    },
+    {
+      "Name": "TSquare Torrent Search",
+      "Package": "com.tsquare.torrentsearch"
+    },
+    {
+      "Name": "TTorrent",
+      "Package": "hu.tagsoft.ttorrent.lite"
+    },
+    {
+      "Name": "Tubi TV",
+      "Package": "com.tubitv"
+    },
+    {
+      "Name": "Turbo Torrent",
+      "Package": "co.turbotorrentapp.downloader"
+    },
+    {
+      "Name": "TVP",
+      "Package": "com.mobilityflow.tvp"
+    },
+    {
+      "Name": "Ultra Torrent",
+      "Package": "org.bas.torrent"
+    },
+    {
+      "Name": "Video Downloader",
+      "Package": "video.downloader.videodownloader"
+    },
+    {
+      "Name": "VPN for Torrenting",
+      "Package": "free.torrent.vpn"
+    },
+    {
+      "Name": "VPN TORRENT",
+      "Package": "torrent.vpn.fast.speed"
+    },
+    {
+      "Name": "Vuze",
+      "Package": "com.vuze.torrent.downloader"
+    },
+    {
+      "Name": "Vuze Remote",
+      "Package": "com.vuze.android.remote"
+    },
+    {
+      "Name": "Watch Torrent",
+      "Package": "com.app.watchtorrent"
+    },
+    {
+      "Name": "JetBOX",
+      "Package": "com.lightworks.android.jetbox"
+    },
+    {
+      "Name": "ZetaTorrent",
+      "Package": "com.teeonsoft.ztorrent"
+    },
+    {
+      "Name": "ZetaTorrent Pro",
+      "Package": "com.teeonsoft.ztorrentpro"
+    },
+    {
+      "Name": "ZetaTorrent Pro",
+      "Package": "com.teeonsoft.ztorentpro"
+    },
+    {
+      "Name": "FuTorrent",
+      "Package": "com.futorrent.torrent.client"
+    },
+    {
+      "Name": "Torrnado",
+      "Package": "com.gabordemko.torrnado"
+    },
+    {
+      "Name": "Transdrone",
+      "Package": "org.transdroid.lite"
+    },
+    {
+      "Name": "BitX",
+      "Package": "tv.bitx.media"
+    },
+    {
+      "Name": "MegaBox HD",
+      "Package": "com.actionteam.talkingbox"
+    },
+    {
+      "Name": "MwTorrent",
+      "Package": "com.ozteam.torrent"
+    },
+    {
+      "Name": "PTorrent",
+      "Package": "com.pixeltech.ptorrent"
+    },
+    {
+      "Name": "TorrDroid",
+      "Package": "intelligems.torrdroid"
+    },
+    {
+      "Name": "Torrent Finder",
+      "Package": "torrent.salyangoz.com.torrentfinderv3"
+    },
+    {
+      "Name": "Torrent Hunter",
+      "Package": "com.bugfiesta.torrenthunter"
+    },
+    {
+      "Name": "Torrent Manager",
+      "Package": "com.akingi.torrent"
+    },
+    {
+      "Name": "Torrent Search",
+      "Package": "it.nm.torrentsearch"
+    },
+    {
+      "Name": "Torrent Search And Downnloader",
+      "Package": "com.torrsearch.downloader"
+    },
+    {
+      "Name": "Torrent Search Engine",
+      "Package": "com.paolod.torrentsearch2"
+    },
+    {
+      "Name": "Torrent-fu",
+      "Package": "com.androidfu.torrents"
+    },
+    {
+      "Name": "Transmission BTC",
+      "Package": "com.ap.transmission.btc"
+    },
+    {
+      "Name": "WeTorrent",
+      "Package": "co.we.torrent"
+    },
+    {
+      "Name": "Auto WiFi Tethering",
+      "Package": "com.labs.dm.auto_tethering"
+    },
+    {
+      "Name": "Bluetooth Tethering Manager",
+      "Package": "com.tomlocksapps.bluetoothtetheringmanager"
+    },
+    {
+      "Name": "Bluetooth Tethering On Off",
+      "Package": "jp.co.nicumaru.bluetoothtetheronoff"
+    },
+    {
+      "Name": "Data Sharing",
+      "Package": "com.awake.datasharing"
+    },
+    {
+      "Name": "EasyTether",
+      "Package": "com.mstream.easytether_beta"
+    },
+    {
+      "Name": "FoxFi",
+      "Package": "com.foxfi"
+    },
+    {
+      "Name": "NetShare",
+      "Package": "kha.prog.mikrotik"
+    },
+    {
+      "Name": "PdaNet+",
+      "Package": "com.pdanet"
+    },
+    {
+      "Name": "Portable Wifi Hotspot",
+      "Package": "com.soulsapp.portable.wifihotspot"
+    },
+    {
+      "Name": "Quick USB Tethering",
+      "Package": "com.USB"
+    },
+    {
+      "Name": "SecureTether",
+      "Package": "com.panjava.internet.tethering.secure.bluetooth.securetether"
+    },
+    {
+      "Name": "SecureTether Client",
+      "Package": "com.panjava.internet.tethering.secure"
+    }
+  ]
+}
