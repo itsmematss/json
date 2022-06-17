@@ -1,0 +1,179 @@
+{
+  "version": 1.1,
+  "message": "Hell oMars!",
+  "servers": [
+    {
+      "name": "Server 01",
+      "info": "Unlimited",
+      "flag": "sg",
+      "server_ip": "167.71.210.211",
+      "dropbear": 550,
+      "openssh": 22,
+      "stunnel": 443,
+      "public_key": "28e9255ec06d9244c988fd9c4556b902bb19eaa3ba29824194f9303489b0d635",
+      "name_server": "xsg09-dns.bmqb.net",
+      "authentication": {
+        "username": "speedyssh.com-snku",
+        "password": "snku"
+      }
+    },
+    {
+      "name": "Server 02",
+      "info": "Unlimited",
+      "flag": "ph",
+      "server_ip": "157.245.150.253",
+      "dropbear": 550,
+      "openssh": 22,
+      "stunnel": 443,
+      "public_key": "965e17d570bb52e315446ea635bd8288c592b810680935319d8bdf950f43803a",
+      "name_server": "ssg03-dns.microsshdns.host",
+      "authentication": {
+        "username": "microssh-69",
+        "password": "69"
+      }
+    },
+    {
+      "name": "Server 03",
+      "info": "Unlimited",
+      "flag": "ca",
+      "server_ip": "w1.24clanvpn.xyz",
+      "dropbear": 550,
+      "openssh": 22,
+      "stunnel": 443,
+      "public_key": "",
+      "name_server": "",
+      "authentication": {
+        "username": "islam",
+        "password": "islam"
+      }
+    }
+  ],
+  "networks": [
+    {
+      "name": "Tweak 01",
+      "info": "Bypass Free",
+      "icon": "rocket",
+      "connection": 0,
+      "payload": "",
+      "sni": "",
+      "dns": "",
+      "custom_proxy": {
+        "is": false,
+        "proxy_host": "",
+        "proxy_port": 8000
+      }
+    },
+    {
+      "name": "Tweak 02",
+      "info": "Bypass Free",
+      "icon": "rocket",
+      "connection": 0,
+      "payload": "",
+      "sni": "",
+      "dns": "",
+      "custom_proxy": {
+        "is": false,
+        "proxy_host": "",
+        "proxy_port": 8000
+      }
+    },
+    {
+      "name": "HTTP Proxy",
+      "info": "Bypass Free",
+      "icon": "rocket",
+      "connection": 2,
+      "payload": "CONNECT [host_port] [protocol][crlf]Host: www.bughost.com[crlf][crlf]",
+      "sni": "",
+      "dns": "",
+      "custom_proxy": {
+        "is": false,
+        "proxy_host": "",
+        "proxy_port": 8000
+      }
+    },
+    {
+      "name": "SSL Tunnel",
+      "info": "Bypass Free",
+      "icon": "rocket",
+      "connection": 3,
+      "payload": "",
+      "sni": "m.google.com",
+      "dns": "",
+      "custom_proxy": {
+        "is": false,
+        "proxy_host": "",
+        "proxy_port": 8000
+      }
+    },
+    {
+      "name": "Tweak 05",
+      "info": "Bypass Free",
+      "icon": "rocket",
+      "connection": 0,
+      "payload": "",
+      "sni": "",
+      "dns": "",
+      "custom_proxy": {
+        "is": false,
+        "proxy_host": "",
+        "proxy_port": 8000
+      }
+    },
+    {
+      "name": "Tweak 06",
+      "info": "Bypass Free",
+      "icon": "rocket",
+      "connection": 0,
+      "payload": "",
+      "sni": "",
+      "dns": "",
+      "custom_proxy": {
+        "is": false,
+        "proxy_host": "",
+        "proxy_port": 8000
+      }
+    },
+    {
+      "name": "Tweak 07",
+      "info": "Bypass Free",
+      "icon": "rocket",
+      "connection": 0,
+      "payload": "",
+      "sni": "",
+      "dns": "",
+      "custom_proxy": {
+        "is": false,
+        "proxy_host": "",
+        "proxy_port": 8000
+      }
+    },
+    {
+      "name": "Tweak 08",
+      "info": "Bypass Free",
+      "icon": "rocket",
+      "connection": 0,
+      "payload": "",
+      "sni": "",
+      "dns": "",
+      "custom_proxy": {
+        "is": false,
+        "proxy_host": "",
+        "proxy_port": 8000
+      }
+    },
+    {
+      "name": "Tweak 09",
+      "info": "Bypass Free",
+      "icon": "rocket",
+      "connection": 0,
+      "payload": "",
+      "sni": "",
+      "dns": "",
+      "custom_proxy": {
+        "is": false,
+        "proxy_host": "",
+        "proxy_port": 8000
+      }
+    }
+  ]
+}
